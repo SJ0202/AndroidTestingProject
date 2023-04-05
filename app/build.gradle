@@ -87,4 +87,7 @@ dependencies {
     // Room
     implementation "androidx.room:room-ktx:2.5.1"
     kapt "androidx.room:room-compiler:2.5.1"
+
+    // Local unit tests
+    testImplementation "com.google.truth:truth:1.1.3"
 }
